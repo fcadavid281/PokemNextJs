@@ -11,7 +11,10 @@ const Layout: FC<Props> = ({ children, title }) => {
   return (
     <>
       <Head>
-        <title> {title || "Poken App"} </title>
+        <title style={{ textTransform: "uppercase" }}>
+          {" "}
+          {title || "Poken App"}{" "}
+        </title>
         <meta name="author" content="Fabian Cadavid"></meta>
         <meta
           name="description"

@@ -26,7 +26,7 @@ const Navbar = () => {
       />
 
       <NextLink href="/" passHref>
-        <Text color="white" transform="capitalize" h2>
+        <Text color="white" transform="capitalize">
           Pokémon
         </Text>
         {/* <Text color="white" h3></Text> */}
