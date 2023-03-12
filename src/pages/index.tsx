@@ -1,4 +1,4 @@
-import { Grid } from "@nextui-org/react";
+import { Grid, Image } from "@nextui-org/react";
 import { GetStaticProps, NextPage } from "next";
 import { Inter } from "next/font/google";
 import { pokeApi } from "../../api";

@@ -24,7 +24,8 @@ const toggleFavorite = (id: number) => {
 }
 
 const existInFavorite = (id: number): boolean => {
-    if (typeof window === 'undefined') return false;
+    if (typeof window === 'undefined' || typeof window === 'object') return false;
+
     const favorite: number[] = getFavorites();
     return favorite.includes(id);
 
